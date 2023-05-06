@@ -337,6 +337,7 @@ body {
   text-transform: capitalize;
   color: var(--primary-text-color);
   line-height: 1.11;
+  margin-bottom: 72px
 }
 .name-team {
   font-family: 'Roboto';
