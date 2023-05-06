@@ -393,6 +393,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--background-btn-filters);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 /* Portfolio.html */
 /* button */
