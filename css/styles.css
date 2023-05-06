@@ -124,16 +124,11 @@ body {
 }
 .container {
   width: 1158px;
-  margin: 0 auto;
+  margin: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-.div-class{
-  width: 1158px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
+
 .menu-link {
   font-weight: 500;
   line-height: 1.5;
