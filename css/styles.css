@@ -244,6 +244,10 @@ body {
   color: var(--background-color);
 }
 /* selector2 */
+.our-skill{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .hidden-header {
   margin-bottom: 72px;
   /* font-weight: 700; */
@@ -253,6 +257,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.li-skill{
+  flex-basis: calc((100% - 72px) / 4))
 }
 .foto-gadget {
   width: calc((100% - 48px) / 3);
