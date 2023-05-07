@@ -126,7 +126,8 @@ body {
 }
 .container{
   width: 1158px;
-  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
   padding-left: 15px ;
   padding-right: 15px;
 }
