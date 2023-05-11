@@ -368,6 +368,22 @@ body {
   color: var(--background-btn-filters);
   margin-bottom: 16px;
 }
+.logo-link-footer{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color-hover);
+  line-height: 1.17;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer {
   background-color: var(--primary-text-color);
   padding-top: 100px;
