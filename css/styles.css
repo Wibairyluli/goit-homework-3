@@ -82,7 +82,6 @@ body {
   color: var(--text-color-hover);
   line-height: 1.17;
   margin-right: 76px;
-  margin-bottom: 16px;
   display: inline-block;
 }
 .logo-color {
@@ -92,7 +91,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -137,6 +135,7 @@ body {
   color: var(--primary-text-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .menu-list {
   display: flex;
@@ -144,10 +143,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
@@ -241,10 +237,7 @@ body {
   color: var(--background-color);
 }
 /* selector2 */
-.our-skill {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .hidden-header {
   margin-bottom: 72px;
   /* font-weight: 700; */
@@ -371,7 +364,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
+  display:inline-block;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
