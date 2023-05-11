@@ -237,9 +237,8 @@ body {
   color: var(--background-color);
 }
 /* selector2 */
-
+.our-skill{padding: 120px 0 120px}
 .hidden-header {
-  margin-bottom: 72px;
   /* font-weight: 700; */
   font-size: 36px;
   line-height: 1.11;
@@ -268,8 +267,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 120px;
-  padding-bottom: 8px;
   display: flex;
   width: calc((100% - 3 * 24px) / 4);
 }
@@ -285,7 +282,7 @@ body {
 }
 /* section3 */
 .we-doing {
-  padding-top: 120px;
+  
   padding-bottom: 120px;
 }
 
@@ -369,6 +366,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-btn-filters);
+  margin-bottom: 16px;
 }
 .footer {
   background-color: var(--primary-text-color);
