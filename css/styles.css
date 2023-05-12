@@ -82,7 +82,6 @@ body {
   color: var(--text-color-hover);
   line-height: 1.17;
   margin-right: 76px;
-  display: inline-block;
 }
 .logo-color {
   color: var(--primary-text-color);
@@ -98,7 +97,7 @@ body {
   
 }
 .page-header {
-  display: flex;
+  
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -108,10 +107,8 @@ body {
 }
 .menu {
   display: flex;
-  align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .phone-mail {
   display: flex;
@@ -135,7 +132,7 @@ body {
   color: var(--primary-text-color);
   padding-top: 24px;
   padding-bottom: 24px;
-  display: block;
+  
 }
 .menu-list {
   display: flex;
@@ -143,6 +140,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.menu-item {display: flex;}
 
 .menu-link:hover,
 .menu-link:focus {
@@ -356,31 +354,21 @@ body {
 }
 /* footer */
 .logo-color-footer {
-  font-family: 'Raleway';
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display:inline-block;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--background-btn-filters);
-  margin-bottom: 16px;
 }
 .logo-link-footer{
-  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-color-hover);
   line-height: 1.17;
-  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -390,8 +378,8 @@ body {
   padding-bottom: 100px;
 }
 .description {
-  font-family: 'Roboto';
-  font-style: normal;
+  max-width: 264px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -412,14 +400,14 @@ body {
   letter-spacing: 0.04em;
   color: var(--text-color-hover);
   background: var(--background-btn-filters);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  
   border-radius: 4px;
   cursor: pointer;
   padding: 12px 24px;
   border: 1px solid #e7e9fc
-  
 }
+
+
 .portfolio-button{
   padding: 96px 0 120px;
 }
@@ -458,6 +446,8 @@ body {
   background-color: var(--acent-color);
   color: var(--background-color);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .projects-list {
   text-decoration: none;
@@ -473,7 +463,8 @@ body {
 }
 .container {
   width: 1158px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px ;
   padding-right: 15px;
 }
